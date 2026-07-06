@@ -6,9 +6,12 @@ export default function DirectoryHome() {
       <div className="hex-field" />
       <nav className="nav-public">
         <div className="brand"><span className="brand-mark">B</span> Bumpify Directory</div>
-        <span className="mono" style={{ fontSize: 12.5, color: 'var(--text-faint)', display: 'flex', alignItems: 'center', gap: 8 }}>
-          <span className="live-dot" /> Données en direct
-        </span>
+        <div style={{ display: 'flex', gap: 12, alignItems: 'center' }}>
+          <a href="/templates" className="filter-chip">Templates de serveur</a>
+          <span className="mono" style={{ fontSize: 12.5, color: 'var(--text-faint)', display: 'flex', alignItems: 'center', gap: 8 }}>
+            <span className="live-dot" /> Données en direct
+          </span>
+        </div>
       </nav>
 
       <header className="hero">
